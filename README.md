@@ -16,7 +16,7 @@ if user == username and pas == password:
         print("2)show name")
         print("3)remove name")
         print("0)exit")
-        option = int(input("enter your optin:"))
+        option = int(input("enter your optoin:"))
 
         if option == 1:
             name = input("enter your name:")
@@ -31,7 +31,7 @@ if user == username and pas == password:
              remove_name = input("enter name was to remove:")
              if remove_name in name_list:
                 name_list.remove(remove_name)
-                print("remove successfully")
+                print("remove successful")
              else:
                  print("the name was not in the list")
 
